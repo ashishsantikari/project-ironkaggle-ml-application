@@ -169,20 +169,20 @@ This comprehensive feature set allows models to understand seasonal trends, holi
 
 | Linear Regression | Random Forest | Decision Tree |
 |:---:|:---:|:---:|
-| ![Baseline LR](images/baseline_lr_plot.png) | ![Baseline RF](images/baseline_rf_plot.png) | ![Baseline DT](images/baseline_dt_plot.png) |
+| ![Baseline LR](images/linear_regression_baseline_plot.png) | ![Baseline RF](images/random_forest_baseline_plot.png) | ![Baseline DT](images/decision_tree_baseline_plot.png) |
 
 **Feature Importance (Random Forest Baseline)**
-![RF Feature Importance](images/baseline_rf_importance.png)
+![RF Feature Importance](images/random_forest_feature_importance_baseline.png)
+
+**Decision Tree Structure (Baseline)**
+![Decision Tree Structure](images/baseline_dt_tree_structure.png)
 
 ### Specialized Models (Selected Features)
 These models focus exclusively on the two highest-impact variables: **nb_customers_on_day** and **promotion**.
 
 | Linear Regression | Random Forest | Decision Tree |
 |:---:|:---:|:---:|
-| ![Specialized LR](images/specialized_lr_plot.png) | ![Specialized RF](images/specialized_rf_plot.png) | ![Specialized DT](images/specialized_dt_plot.png) |
-
-**Feature Importance (Random Forest Specialized)**
-![RF Specialized Importance](images/specialized_rf_importance.png)
+| ![Specialized LR](images/linear_regression_specialized_plot.png) | ![Specialized RF](images/random_forest_specialized_plot.png) | ![Specialized DT](images/decision_tree_specialized_plot.png) |
 
 ## 📝 9. Conclusions & Insights
 - **Comprehensive Feature Set**: The baseline models now include all relevant features - temporal (year, month, day), holiday indicators (state_holiday, school_holiday), and business metrics (nb_customers_on_day, promotion, day_of_week). This ensures the models can capture the full complexity of sales patterns across different time periods and special events.
